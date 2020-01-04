@@ -24,16 +24,17 @@ nav {
     justify-content: space-between;
 }
 
-nav h1,
-nav ul {
+nav h1 {
     font-size: 1.5rem;
     flex: 1;
 }
 
 nav ul {
+    font-size: 1.4rem;
+    flex: 1;
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 nav a {
@@ -69,6 +70,7 @@ section h2 {
     position: absolute;
     z-index: -2;
     background: linear-gradient(to right top, #f46b45, #eea849);
+    border-radius: 10px;
     transform: scale(2);
     transition: all .5s ease;
 }

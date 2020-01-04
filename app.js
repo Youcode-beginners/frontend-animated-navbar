@@ -29,6 +29,8 @@ function navCheck(entries) {
             bubble.style.setProperty('width', `${directions.width}px`);
             bubble.style.setProperty('height', `${directions.height}px`);
             bubble.style.background = gradients[gradientIndex];
+            
+            links.forEach(link => { link.style.color = ((link.getAttribute('data-page') == entry.target.id)) ? "white" : "black"; })
         }
     });
 }
